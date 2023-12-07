@@ -1,0 +1,215 @@
+body{
+    background-image: radial-gradient(circle at center right, rgb(202, 57, 146), rgb(11, 5, 110));
+    font-family: poppins;
+    height: 200vh;
+   
+    
+}
+
+.welcome-text{
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    transition: .3s;
+    
+    
+    
+}
+
+.pro-img{
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: .3s;
+    
+}
+
+.desc-text{
+    font-size: 25px;
+    padding: 10px;
+    display: none;
+    transition: .3s;
+    
+    
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    
+}
+
+.question{
+    margin: auto;
+    opacity: 100%;
+    transition: .3s;
+    
+    
+}
+
+.main{
+    position: fixed;
+    text-align: center;
+}
+
+
+.second-text{
+    display: none;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0;
+    transform: translateY(-100px);
+    
+}
+
+
+
+
+.lang-div{
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(150px);
+    flex-shrink: 1;
+    
+}
+
+.btn{
+    height: 50px;
+    width: 200px;
+}
+
+
+
+.py-logo{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.py-text{
+    font-weight:300 ;
+}
+
+.py-btn{
+    background-color: orange;
+    color: rgb(111, 111, 255);
+    border: none;
+}
+
+.py-div{
+    height: 500px;
+    width: 200px;
+    background-color: white;
+    display: none;
+    
+}
+
+.java-img{
+    width: 200px;
+}
+
+.java-div{
+    width: 200px;
+    background-color: rgb(102, 102, 234);
+    display: none;
+}
+
+.java-text{
+    font-weight: 300;
+}
+
+.java-btn{
+    background-color: rgb(102, 102, 234);
+    color: rgb(101, 28, 28);
+    border: none;
+    
+}
+
+.btn{
+    font-weight: 600;
+}
+
+
+.js-div{
+    width: 200px;
+    background-color: yellow;
+    display: none;
+    
+}
+
+.js-img{
+    width: 200px;
+}
+
+.js-btn{
+    background-color: yellow;
+    color: rgb(120, 119, 119);
+    border: none;
+}
+
+.php-img{
+    width: 200px;
+
+}
+
+.php-div{
+    width: 200px;
+    background-color: purple;
+    display: none;
+}
+
+.php-btn{
+    background-color: purple;
+    color: rgb(20, 20, 92);
+    border: none;
+}
+
+.cpp-img{
+    width: 200px;
+}
+
+.cpp-div{
+    width: 200px;
+    background-color: rgb(37, 37, 132);
+    display: none;
+}
+
+.cpp-btn{
+    background-color: rgb(37, 37, 132);
+    color: grey;
+    border: none
+    ;
+
+}
+
+.second{
+    display: none;
+}
+
+.third-text{
+    font-size: 50px;
+}
+
+.fav-lang{
+    font-size: 20px;
+}
+
+.third{
+    display: none;
+    margin-left: 300px;
+}
+
+.sorry{
+    display: none;
+    color: red;
+}
+
+@media screen and (max-width:1300px) {
+    main{
+        display: none;
+    }
+    .sorry{
+        display: block;
+    }
+}
